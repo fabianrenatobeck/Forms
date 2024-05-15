@@ -30,74 +30,75 @@
                                 <h3>Personalien</h3>
                                 <div class="Names">
                                         <label for="fname">Vorname:</label>
-                                        <input type="text" id="fname" name="fname"><br><br>
+                                        <input type="text" id="fname" name="fname" required><br><br>
                                         <label for="lname">Nachname:</label>
-                                        <input type="text" id="lname" name="lname"><br><br>
+                                        <input type="text" id="lname" name="lname" required><br><br>
                                 </div>
 
                                 <label for="Geburtstag">Geburtstag</label>
-                                <input type="date" id="daten" name="Geburtstag"><br><br>
+                                <input type="date" id="daten" name="Geburtstag" required><br><br>
 
                                 <!--Wo wohnen-->
                                 <div class="Strasse">
                                         <label>Strasse</label>
-                                        <input type="text" placeholder="Strasse" value="" />
-                                        <input type="number" placeholder="Num." value="" style="width: 50px;" />
+                                        <input type="text" placeholder="Strasse" value="" required/>
+                                        <input type="number" placeholder="Num." value="" style="width: 50px;" required/>
                                 </div>
                                 <br>
 
                                 <div class="Ort">
                                         <label>Ort</label>
-                                        <input type="text" placeholder="PLZ" value="" style="width: 65px;" />
-                                        <input type="text" placeholder="Ortschaft" value="" />
+                                        <input type="number" placeholder="PLZ" value="" style="width: 65px;" required/>
+                                        <input type="text" placeholder="Ortschaft" value="" required/>
                                 </div>
                                 <br>
 
                                 <!--Zum erreichen-->
                                 <div class="Email">
                                         <label>Email</label>
-                                        <input type="email" placeholder="Deine Email" value="" />
+                                        <input type="email" placeholder="Deine Email" value="" required/>
                                 </div>
                                 <br>
                                 <div class="Handynummer">
                                         <label>Handynummer</label>
-                                        <input type="tel" placeholder="Deine Handynummer" value="" />
+                                        <input type="tel" placeholder="Deine Handynummer" value="" required />
                                 </div>
 
                                 <br>
                                 <div class="nice-form-group">
                                         <label>Bevorzugte Art der Kontaktaufnahme</label>
-                                        <select style="width: 100px;">
+                                        <select style="width: 100px;" required>
                                                 <option>Telefon</option>
                                                 <option>Brief</option>
                                                 <option>Email
+                                                        
                                         </select>
                                 </div>
 
                                 <div class="nice-form-group">
                                         <label>Mativationsschreiben</label>
-                                        <textarea rows=10 value=""></textarea>
+                                        <textarea rows=10 value="" required></textarea>
 
                                 </div>
 
                                 <div class="nice-form-group">
                                         <label>Lebenslauf</label>
-                                        <input type="file" />
+                                        <input type="file" required />
                                 </div>
                                 <br>
                                 <div class="Portfolio">
                                         <label>Portfolio</label>
-                                        <input type="url" placeholder="link" value="" />
+                                        <input type="url" placeholder="link" value="" required/>
                                 </div>
                                 <br>
                                 <div class="Github">
                                         <label>Github</label>
-                                        <input type="url" placeholder= (img src="link.jpg")"Acountname" value="" />
+                                        <input type="url" placeholder="Acountname" value="" required/>
                                 </div>
 
                                 <div class="nice-form-group">
-                                        <input type="checkbox" id="check-4" class="switch" />
-                                        <label for="check-4">
+                                        <input type="checkbox" id="check-4" class="switch" required />
+                                        <label for="check-4" >
                                                 Lesen sie unsere <a
                                                         href="Datenschutzbestimmung.html">Datenschutzbestimmungen</a> bitte
                                                 auferksam durch<br> und klicken sie auf die Checkbox wen sie einverstanden sind.
